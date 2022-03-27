@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>snake game | nang-dwirobbi</title>
+    </head>
+    <script src="snake.js"></script>
+    <body align="center" onload="draw();">
+        <h1>Snake Game</h1>
+        <img
+            id="apple"
+            style="display: none"
+            width="20"
+            height="20"
+            src="assets/img/apple.png"
+            alt="Apple"
+        />
+        <img
+            id="health"
+            style="display: none"
+            width="20"
+            height="20"
+            src="assets/img/health.png"
+            alt="Health"
+        />
+        <img
+            id="head"
+            style="display: none"
+            width="20"
+            height="20"
+            src="assets/img/head.png"
+            alt="Head"
+        />
+        <img
+            id="body"
+            style="display: none"
+            width="20"
+            height="20"
+            src="assets/img/body.png"
+            alt="Body"
+        />
+        <canvas
+            id="snakeBoard"
+            width="400"
+            height="400"
+            style="border: 2px solid #000000"
+        ></canvas>
+        <br />
+        <canvas
+            id="scoreBoard"
+            width="120"
+            height="100"
+            style="border: 2px solid #000000"
+        ></canvas>
+        <canvas
+            id="speedBoard"
+            width="150"
+            height="100"
+            style="border: 2px solid #000000"
+        ></canvas>
+        <canvas
+            id="levelBoard"
+            width="120"
+            height="100"
+            style="border: 2px solid #000000"
+        ></canvas>
+    </body>
+</html>

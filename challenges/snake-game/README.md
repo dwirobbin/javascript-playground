@@ -1,0 +1,1 @@
+## Snake game is made using the JavaScript programming language
